@@ -1,19 +1,23 @@
 # cloud-cv
 
- A cloud-based resume service which utilises Firestore for data storage, a Google Cloud Function for fetching resume data by ID, and Terraform for infrastructure deployment.
+A cloud-based resume service which utilises Firestore for data storage, a Google Cloud Function for fetching resume data by ID, and Terraform for infrastructure deployment.
 
 #### prerequisites
+
 - GCP account
+
 ```
 Create a Google Cloud Service Account Key:
 
 - Go to the Google Cloud Console.
 - Navigate to IAM & Admin > Service Accounts.
 - Create a new service account or use an existing one.
-- Generate a new JSON key for this service account and download the file.
+- Generate a new JSON key for this service account and download the file and pass the contents in the auth.json file.
+- Additionally for setting up the github actions, Add the contents of the JSON key file as a GitHub secret. You could name it GCP_SERVICE_ACCOUNT_KEY.
 ```
 
 - teraform (on your local machine)
+
 ```bash
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
 wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
@@ -43,4 +47,3 @@ terraform apply
 
 
 ```
-
