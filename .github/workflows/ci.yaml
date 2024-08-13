@@ -31,4 +31,4 @@ jobs:
           DEPLOYMENT_KEY: ${{ secrets.DEPLOYMENT_KEY }}
         run: |
           # Add your deployment commands here
-          ./deploy_script.sh
+          scripts/deploy_script.sh
