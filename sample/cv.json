@@ -1,0 +1,93 @@
+{
+    "basics": {
+        "name": "Adarsh Jaiswal",
+        "label": "Cloud engineer",
+        "image": "",
+        "email": "its.adarshjaiss@gmail.com",
+        "phone": "+916200059008",
+        "url": "https://adarshjaiswal.tech",
+        "summary": "A summary of Adarsh Jaiswal…",
+        "location": {
+            "address": "Indrapuri",
+            "postalCode": "462022",
+            "city": "Bhopal",
+            "countryCode": "IN",
+            "region": "Madhya Pradesh"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "twtadarsh",
+                "url": "https://twitter.com/twtadarsh"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "DataSherlock",
+            "position": "Software engineer intern",
+            "url": "https://datasherlock.io/",
+            "startDate": "2024-04-01",
+            "endDate": "2024-06-31",
+            "summary": "Backend Engineer",
+            "highlights": [
+                "Developed a Go library and a CLI tool for database schema extraction and query execution"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "CNCF Bhopal",
+            "position": "Volunteer",
+            "url": "https://cncfbhopal.io/",
+            "startDate": "2023-06-01",
+            "endDate": "",
+            "summary": "Description…",
+            "highlights": [
+                "'"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "IES University",
+            "url": "https://iesuniversity.ac.in/",
+            "area": "Computer Science",
+            "studyType": "Bachelor",
+            "startDate": "2022-09-05",
+            "endDate": "",
+            "score": "8.0",
+            "courses": [
+                "DBMS",
+                "Operating Systems",
+                "Data Structures"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Backend and cloud",
+            "level": "Intermediate",
+            "keywords": [
+                "Go",
+                "Google Cloud",
+                "Terraform"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Photography",
+            "keywords": [
+                "Street photography",
+                "Portrait photography"
+            ]
+        }
+    ]
+}
