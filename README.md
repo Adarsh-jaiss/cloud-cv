@@ -4,6 +4,7 @@ A cloud-based resume service which utilises Firestore for data storage, a Google
 
 #### prerequisites
 
+- JSON Resume : checkout `sample/cv.json`
 - GCP account
 
 ```
